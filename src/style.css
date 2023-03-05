@@ -1,0 +1,74 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.logo{
+    display: flex;  
+}
+.logo #imagemDoBanco{
+    width: 45px;
+    height: 42px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.logo #nomeDoBanco{
+    width: 80px;
+    height: 24px;
+    margin-top: 55px;
+    left: 95px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.navegacao{
+    display: flex; 
+}
+ .navegacao li{
+    
+    width: 85px;
+    height: 18px;
+    margin-top: 45px;
+    text-align: center;
+
+ }
+ .navegacao li a{
+    transition: 0.2s;
+ }
+ .navegacao .cadastro{
+    border-radius: 50%;
+ }
+
+ .navegacao li a:hover{
+    padding: 10px;
+    background-color: #5BC241;
+    color: #ffffff;
+ }
+
+
+ @media (max-width:425px){
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .navegacao{
+        display: block;
+        margin-left: 90px;
+    }
+    .navegacao a{
+        padding: 10px;
+        display: block;
+    }
+ }
